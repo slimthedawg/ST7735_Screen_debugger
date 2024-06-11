@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Text Input</title>
+</head>
+<body>
+    <h1>Enter your python code for the ST7735 SPI screen</h1>
+    <form method="POST">
+        <textarea name="textfield" aria-multiline="true" rows="60" cols="150">{{ saved_text }}</textarea><br>
+        <button type="submit">Run script</button>
+    </form>
+    <p>Execution result:</p>
+    <pre>{{ execution_result }}</pre>
+</body>
+</html>
